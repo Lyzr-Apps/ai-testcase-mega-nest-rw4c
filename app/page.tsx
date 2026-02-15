@@ -12,8 +12,8 @@ import { Label } from '@/components/ui/label'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
-import { VscBeaker, VscGitMerge, VscCode, VscTerminal, VscDebugAlt, VscRocket, VscRepo, VscGitBranch, VscWarning, VscFolderOpened, VscSymbolMisc, VscFileCode } from 'react-icons/vsc'
-import { FiCopy, FiDownload, FiCheck, FiLoader, FiAlertTriangle, FiRefreshCw, FiChevronRight, FiActivity, FiZap } from 'react-icons/fi'
+import { VscBeaker, VscGitMerge, VscCode, VscTerminal, VscDebugAlt, VscRocket, VscRepo, VscWarning, VscFolderOpened, VscSymbolMisc, VscFileCode } from 'react-icons/vsc'
+import { FiCopy, FiDownload, FiCheck, FiLoader, FiAlertTriangle, FiRefreshCw, FiChevronRight, FiActivity, FiZap, FiGitBranch } from 'react-icons/fi'
 
 const MANAGER_AGENT_ID = '69917fc4c30574dfe0950003'
 
@@ -752,7 +752,7 @@ Please analyze the repository structure, identify key components, and generate t
                     Branch
                   </label>
                   <div className="flex items-center gap-2">
-                    <VscGitBranch size={14} style={{ color: MONO.cyan }} />
+                    <FiGitBranch size={14} style={{ color: MONO.cyan }} />
                     <Input
                       value={branch}
                       onChange={(e) => setBranch(e.target.value)}
