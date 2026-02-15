@@ -1,0 +1,18 @@
+{
+  "agent_name": "Performance Test Agent",
+  "agent_id": "69917f72e113979a0c1d09c1",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "title": { "type": "string" },
+      "test_count": { "type": "string" },
+      "code": { "type": "string" },
+      "summary": { "type": "string" }
+    },
+    "required": ["title", "test_count", "code", "summary"],
+    "additionalProperties": false
+  }
+}

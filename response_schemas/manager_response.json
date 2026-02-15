@@ -1,0 +1,88 @@
+{
+  "agent_name": "Test Generation Manager",
+  "agent_id": "69917fc4c30574dfe0950003",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "is_manager": true,
+  "managed_agents": [
+    "69917f9486d7eebc2fda77b0",
+    "69917f71e8754005a8c48aa8",
+    "69917f94e41601da864ec640",
+    "69917f71768f6cf6db3cbbe6",
+    "69917f72e113979a0c1d09c1"
+  ],
+  "schema": {
+    "type": "object",
+    "properties": {
+      "repository_info": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "languages": { "type": "string" },
+          "structure_summary": { "type": "string" }
+        },
+        "required": ["name", "languages", "structure_summary"],
+        "additionalProperties": false
+      },
+      "unit_tests": {
+        "type": "object",
+        "properties": {
+          "title": { "type": "string" },
+          "test_count": { "type": "string" },
+          "code": { "type": "string" },
+          "summary": { "type": "string" }
+        },
+        "required": ["title", "test_count", "code", "summary"],
+        "additionalProperties": false
+      },
+      "integration_tests": {
+        "type": "object",
+        "properties": {
+          "title": { "type": "string" },
+          "test_count": { "type": "string" },
+          "code": { "type": "string" },
+          "summary": { "type": "string" }
+        },
+        "required": ["title", "test_count", "code", "summary"],
+        "additionalProperties": false
+      },
+      "e2e_tests": {
+        "type": "object",
+        "properties": {
+          "title": { "type": "string" },
+          "test_count": { "type": "string" },
+          "code": { "type": "string" },
+          "summary": { "type": "string" }
+        },
+        "required": ["title", "test_count", "code", "summary"],
+        "additionalProperties": false
+      },
+      "edge_case_tests": {
+        "type": "object",
+        "properties": {
+          "title": { "type": "string" },
+          "test_count": { "type": "string" },
+          "code": { "type": "string" },
+          "summary": { "type": "string" }
+        },
+        "required": ["title", "test_count", "code", "summary"],
+        "additionalProperties": false
+      },
+      "performance_tests": {
+        "type": "object",
+        "properties": {
+          "title": { "type": "string" },
+          "test_count": { "type": "string" },
+          "code": { "type": "string" },
+          "summary": { "type": "string" }
+        },
+        "required": ["title", "test_count", "code", "summary"],
+        "additionalProperties": false
+      },
+      "overall_summary": { "type": "string" }
+    },
+    "required": ["repository_info", "unit_tests", "integration_tests", "e2e_tests", "edge_case_tests", "performance_tests", "overall_summary"],
+    "additionalProperties": false
+  }
+}

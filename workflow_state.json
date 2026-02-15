@@ -1,0 +1,16 @@
+{
+  "manager_agent_id": "69917fc4c30574dfe0950003",
+  "unit_test_agent_id": "69917f9486d7eebc2fda77b0",
+  "integration_test_agent_id": "69917f71e8754005a8c48aa8",
+  "e2e_test_agent_id": "69917f94e41601da864ec640",
+  "edge_case_agent_id": "69917f71768f6cf6db3cbbe6",
+  "performance_agent_id": "69917f72e113979a0c1d09c1",
+  "all_agent_ids": [
+    "69917fc4c30574dfe0950003",
+    "69917f9486d7eebc2fda77b0",
+    "69917f71e8754005a8c48aa8",
+    "69917f94e41601da864ec640",
+    "69917f71768f6cf6db3cbbe6",
+    "69917f72e113979a0c1d09c1"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "agent_name": "Test Generation Manager",
+  "agent_id": "69917fc4c30574dfe0950003",
+  "description": "Coordinates repository analysis, processes user priorities, routes to specialized test generators, and aggregates all generated test cases into a unified test suite",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "repository_info": {
+      "name": "string",
+      "languages": "string",
+      "structure_summary": "string"
+    },
+    "unit_tests": {
+      "title": "string",
+      "test_count": "string",
+      "code": "string",
+      "summary": "string"
+    },
+    "integration_tests": {
+      "title": "string",
+      "test_count": "string",
+      "code": "string",
+      "summary": "string"
+    },
+    "e2e_tests": {
+      "title": "string",
+      "test_count": "string",
+      "code": "string",
+      "summary": "string"
+    },
+    "edge_case_tests": {
+      "title": "string",
+      "test_count": "string",
+      "code": "string",
+      "summary": "string"
+    },
+    "performance_tests": {
+      "title": "string",
+      "test_count": "string",
+      "code": "string",
+      "summary": "string"
+    },
+    "overall_summary": "string"
+  },
+  "example_response": {
+    "repository_info": {
+      "name": "sample string",
+      "languages": "sample string",
+      "structure_summary": "sample string"
+    },
+    "unit_tests": {
+      "title": "sample string",
+      "test_count": "sample string",
+      "code": "sample string",
+      "summary": "sample string"
+    },
+    "integration_tests": {
+      "title": "sample string",
+      "test_count": "sample string",
+      "code": "sample string",
+      "summary": "sample string"
+    },
+    "e2e_tests": {
+      "title": "sample string",
+      "test_count": "sample string",
+      "code": "sample string",
+      "summary": "sample string"
+    },
+    "edge_case_tests": {
+      "title": "sample string",
+      "test_count": "sample string",
+      "code": "sample string",
+      "summary": "sample string"
+    },
+    "performance_tests": {
+      "title": "sample string",
+      "test_count": "sample string",
+      "code": "sample string",
+      "summary": "sample string"
+    },
+    "overall_summary": "sample string"
+  }
+}
